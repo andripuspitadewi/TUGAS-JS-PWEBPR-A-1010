@@ -1,0 +1,171 @@
+ /* *{ 
+    border: solid red 1px;
+} */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+    padding: 100px;
+    background-color: #ffffff;
+}
+
+.profesi {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* margin: 100px; */
+    height: 326px;
+    width: 475px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;  
+    background-color: #DBDBDB;
+    /* top: 256px;
+    left: 406px; */
+    /* radius: 30px; */
+}
+
+/* .button-container {
+    display: flex;
+
+} */
+
+/* .button-1{
+    width: 157px;
+    height: 41px;
+    border-radius: 12px;
+}
+
+.text-1{
+    padding: 20px;
+    background-color: #FEEEE2;
+    margin-bottom: 30px;
+    
+}  */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  } */
+  
+  /* h1 { 
+    width: 438px;
+    height: 47px;
+    top: 199px;
+    left: 421px;
+    font: poppins;
+    font-weight: 700;
+    text-align: center;
+    size: 32px;
+    line-height: 48px;
+  }
+   */
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 219px;
+    height: 219px;
+    top: 256;
+    left: 530;
+  }
+
+  .apakah{
+    background-color: #FEEEE2;
+    border-radius: 20px;
+    border: none;
+    width: 475px;
+    height: 56px;
+    text-align: center
+    /* margin-top 20px; */
+    /* cursor: pointer; */
+  }
+
+  p {
+    text-align: center;
+    /* width: 313px;
+    height: 29px; */
+    /* top: 17px; */
+    /* left: 77px; */
+    color: #000000;
+    /* margin-top: 20px; */
+    font-weight: 700;
+    size: 16px;
+    /* line-height: 24px; */
+  }
+  
+  .pilihan {
+    display: flex;
+    margin-top: 20px;
+    width: 339px;
+    height: 41px;
+    gap: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  /* .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+  .tanya { 
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 10px;
+    height: 56x;
+    width: 475px;
+    text-align: center;
+    border-radius: 20px; 
+    top: 256px;
+    left: 406px;  */
+  }
+  
+  .iya {
+    background-color: #6FD240;
+    color: #000000;
+    border-radius: 12px;
+    border: none;
+    width: 157px;
+    height: 41px;
+    cursor: pointer;
+    /* text-align: center; */
+  }
+  
+  .tidak {
+    background-color: #E12E2E;
+    color: #FFFFFF;
+    border-radius: 12px;
+    border: none;
+    width: 157px;
+    height: 41px;
+    cursor: pointer;
+  }
+  
